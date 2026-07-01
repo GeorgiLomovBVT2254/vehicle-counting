@@ -1,0 +1,11 @@
+# .streamlit/config.toml
+[server]
+# Максимальный размер загружаемого файла в МБ (было 200)
+maxUploadSize = 500
+
+# Отключаем защиту для больших файлов
+enableXsrfProtection = false
+enableCORS = false
+
+[browser]
+gatherUsageStats = false

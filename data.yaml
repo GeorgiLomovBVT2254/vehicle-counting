@@ -1,0 +1,12 @@
+# data.yaml
+path: ./data
+train: train/images
+val: val/images
+test: test/images
+
+nc: 4
+names:
+  0: car
+  1: bus
+  2: van
+  3: others
